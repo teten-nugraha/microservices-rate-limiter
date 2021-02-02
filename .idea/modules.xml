@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/timeout-pattern-microservices/common-dto/common-dto.iml" filepath="$PROJECT_DIR$/timeout-pattern-microservices/common-dto/common-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeout-pattern-microservices/product-service/product-service.iml" filepath="$PROJECT_DIR$/timeout-pattern-microservices/product-service/product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/rate-limitter-pattern/rate-limitter-pattern.iml" filepath="$PROJECT_DIR$/rate-limitter-pattern/rate-limitter-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeout-pattern-microservices/rating-service/rating-service.iml" filepath="$PROJECT_DIR$/timeout-pattern-microservices/rating-service/rating-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeout-pattern-microservices/workspace-service.iml" filepath="$PROJECT_DIR$/timeout-pattern-microservices/workspace-service.iml" />
     </modules>
   </component>
 </project>

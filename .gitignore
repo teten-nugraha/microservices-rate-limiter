@@ -1,3 +1,9 @@
+timeout-pattern-microservices/HELP.md
+timeout-pattern-microservices/target/
+timeout-pattern-microservices/!.mvn/wrapper/maven-wrapper.jar
+timeout-pattern-microservices/!**/src/main/**/target/
+timeout-pattern-microservices/!**/src/test/**/target/
+
 rate-limitter-pattern/HELP.md
 rate-limitter-pattern/target/
 rate-limitter-pattern/!.mvn/wrapper/maven-wrapper.jar
@@ -6,8 +12,18 @@ rate-limitter-pattern/!**/src/test/**/target/
 
 
 ### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
 rate-limitter-pattern/.idea
 rate-limitter-pattern/*.iws
 rate-limitter-pattern/*.iml
 rate-limitter-pattern/*.ipr
+
+timeout-pattern-microservices/.idea
+timeout-pattern-microservices/*.iws
+timeout-pattern-microservices/*.iml
+timeout-pattern-microservices/*.ipr
 

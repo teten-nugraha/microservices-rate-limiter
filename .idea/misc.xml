@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/rate-limitter-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/timeout-pattern-microservices/pom.xml" />
       </list>
     </option>
   </component>

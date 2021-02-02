@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rating-service" />
+        <module name="product-service" />
+        <module name="workspace-service" />
         <module name="rate-limitter-pattern" />
+        <module name="common-dto" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-dto" target="1.5" />
+      <module name="product-service" target="1.5" />
       <module name="rate-limitter-pattern" target="11" />
+      <module name="rating-service" target="1.5" />
+      <module name="workspace-service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
