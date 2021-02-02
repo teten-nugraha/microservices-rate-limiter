@@ -1,0 +1,13 @@
+rate-limitter-pattern/HELP.md
+rate-limitter-pattern/target/
+rate-limitter-pattern/!.mvn/wrapper/maven-wrapper.jar
+rate-limitter-pattern/!**/src/main/**/target/
+rate-limitter-pattern/!**/src/test/**/target/
+
+
+### IntelliJ IDEA ###
+rate-limitter-pattern/.idea
+rate-limitter-pattern/*.iws
+rate-limitter-pattern/*.iml
+rate-limitter-pattern/*.ipr
+

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: rate-limitter-pattern
+
+server:
+  port: 9090
+
+resilience4j.ratelimiter:
+  instances:
+#    for normal request 2 times per 2 seconds, if there are many request in less than 2 seconds then rate limiter will execute itself
+    squareLimit:
+      limitForPeriod: 2
+      limitRefreshPeriod: 2s
+      timeoutDuration: 0
